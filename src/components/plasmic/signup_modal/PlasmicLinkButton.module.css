@@ -1,0 +1,18 @@
+.signupButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  position: relative;
+  width: 200px;
+  background: rgb(76, 76, 75);
+  border-radius: 10px;
+}
+.signupButton:hover {
+  background: rgb(23, 23, 23);
+}
+.text {
+  position: relative;
+  color: #ffffff /* plasmic-token: UfnLuThVAfX */;
+}

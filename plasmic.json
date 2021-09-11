@@ -1,0 +1,99 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "fRff5NdcfsSzGJTDR4rK8j",
+      "projectName": "Signup Modal",
+      "version": "latest",
+      "cssFilePath": "plasmic/signup_modal/plasmic_signup_modal.module.css",
+      "components": [
+        {
+          "id": "lkuYKDaZ3QV",
+          "name": "Modal",
+          "type": "managed",
+          "projectId": "fRff5NdcfsSzGJTDR4rK8j",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicModal.tsx",
+          "importSpec": {
+            "modulePath": "Modal.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicModal.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "kCnM-velVmy",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "fRff5NdcfsSzGJTDR4rK8j",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_RE9W1G12RY",
+          "name": "ExamplePage",
+          "type": "managed",
+          "projectId": "fRff5NdcfsSzGJTDR4rK8j",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicExamplePage.tsx",
+          "importSpec": {
+            "modulePath": "ExamplePage.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicExamplePage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "7ZNdV5P0kQu",
+          "name": "demoImage",
+          "filePath": "plasmic/signup_modal/images/demoImage.jpeg"
+        },
+        {
+          "id": "IMtqnlSD6ty",
+          "name": "image",
+          "filePath": "plasmic/signup_modal/images/image.png"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "NaZ61bz2HaIfEc8SOOlrsoMR6zzVVCWB6GB1B3pAnAsiNnX8NwJ2rWDhkrqwHysjVw4RVKVNwc7f9eKQANSLQ"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "gQ0DKfXqjlj",
+        "name": "Screen",
+        "projectId": "fRff5NdcfsSzGJTDR4rK8j",
+        "contextFilePath": "plasmic/signup_modal/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.161",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.161/dist/plasmic.schema.json"
+}
