@@ -1,0 +1,5 @@
+.root:global(.__wab_instance) {
+  width: 100%;
+  position: relative;
+  min-width: 0;
+}

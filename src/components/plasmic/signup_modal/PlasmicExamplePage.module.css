@@ -8,6 +8,7 @@
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)),
     url("./images/image.png") 0% 0% / contain;
+  box-shadow: 2px 4px 4px 2px #00000080;
   min-width: 0;
   min-height: 0;
 }

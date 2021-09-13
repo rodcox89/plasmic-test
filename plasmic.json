@@ -65,9 +65,41 @@
           "cssFilePath": "plasmic/signup_modal/PlasmicExamplePage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "36BHbTduQm",
+          "name": "SignupButton",
+          "type": "managed",
+          "projectId": "fRff5NdcfsSzGJTDR4rK8j",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicSignupButton.tsx",
+          "importSpec": {
+            "modulePath": "SignupButton.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicSignupButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WN-oEUSqkb",
+          "name": "Test",
+          "type": "managed",
+          "projectId": "fRff5NdcfsSzGJTDR4rK8j",
+          "renderModuleFilePath": "plasmic/signup_modal/PlasmicTest.tsx",
+          "importSpec": {
+            "modulePath": "Test.tsx"
+          },
+          "cssFilePath": "plasmic/signup_modal/PlasmicTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "QtFcZpT99A",
+          "name": "AndroidPhoneVsIcon",
+          "moduleFilePath": "plasmic/signup_modal/icons/PlasmicIcon__AndroidPhoneVs.tsx"
+        }
+      ],
       "images": [
         {
           "id": "7ZNdV5P0kQu",

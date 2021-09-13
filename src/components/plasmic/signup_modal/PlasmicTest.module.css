@@ -1,0 +1,70 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.elementButtonoutlineleftIconmainActive {
+  width: 176px;
+  height: 48px;
+  display: block;
+  flex-shrink: 0;
+}
+.rectangle {
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(68, 176, 243, 1);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 6px;
+}
+.freeBox__tPm7D {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: absolute;
+  top: 12px;
+  left: 46px;
+  flex-direction: row;
+}
+.freeBox__tPm7D > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__tPm7D > :global(.__wab_flex-container) > *,
+.freeBox__tPm7D > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__tPm7D > :global(.__wab_flex-container) > picture > img,
+.freeBox__tPm7D
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  display: block;
+  flex-shrink: 0;
+}
+.text__tl25A {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: Campton;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}

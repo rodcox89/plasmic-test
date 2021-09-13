@@ -30,7 +30,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import LinkButton from "../../LinkButton"; // plasmic-import: kCnM-velVmy/component
+import SignupButton from "../../SignupButton"; // plasmic-import: 36BHbTduQm/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -61,7 +61,7 @@ export const PlasmicModal__ArgProps = new Array<ArgPropType>(
 export type PlasmicModal__OverridesType = {
   root?: p.Flex<"div">;
   email?: p.Flex<"input">;
-  signupButton?: p.Flex<typeof LinkButton>;
+  signupButton?: p.Flex<typeof SignupButton>;
   link?: p.Flex<"a">;
   highlightImage?: p.Flex<"img">;
 };
@@ -124,11 +124,10 @@ function PlasmicModal__RenderFunc(props: {
               />
             </div>
 
-            <LinkButton
+            <SignupButton
               data-plasmic-name={"signupButton"}
               data-plasmic-override={overrides.signupButton}
               className={classNames("__wab_instance", sty.signupButton)}
-              href={"#" as const}
             />
           </p.Stack>
 
@@ -185,7 +184,7 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   email: "input";
-  signupButton: typeof LinkButton;
+  signupButton: typeof SignupButton;
   link: "a";
   highlightImage: "img";
 };
